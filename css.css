@@ -1,8 +1,23 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    color: blue;
+}
 ul {
     list-style-type:lower-alpha;
 }
-
+h1,h2{
+    font-family:Playfair Display;
+}
 img {
     width: 100px;
     height: auto;
 }
+
+.playfair-font {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-style: normal;
+  }
