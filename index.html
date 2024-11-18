@@ -10,33 +10,73 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Hola mundo</h1>
+    <header>
+        <h1>Chicas Programadoras</h1>
+    </header>
 
-  <h2>Comidas saladas</h2>  
-  <ol>
-    <li> <a href="https://en.wikipedia.org/wiki/Asado">Asado</a></li>
-    <img src="https://th.bing.com/th/id/OIP.iPFnE2DfO4t38OW_NGfiBQHaE8?rs=1&pid=ImgDetMain" title="asado" alt="cargando imagen de un asado">
-    <li><a href="https://www.lr21.com.uy/gastronomia/1471599-receta-chivito-uruguayo-historia">Chivito</a></li>
-    <img src="https://th.bing.com/th/id/R.81f6c2d4db4fe99883a372c00c8b5a41?rik=g1usOkVuWvSyjg&pid=ImgRaw&r=0" title="chivito" alt="cargando imagen de un chivito">
-    <li><a href="https://www.directoalpaladar.com/recetas-de-carnes-y-aves/receta-argentina-milanesa-a-napolitana-filete-empanado-dos-mentiras">Napolitana</a></li>
-    <img src="https://th.bing.com/th/id/OIP.9JdJY5Ogn-FZQUYmG8oRKAHaEk?rs=1&pid=ImgDetMain" title="napolitana" alt="milanesa napolitana">
-  </ol>
+    <nav>
+        <ul>
+            <li><a href="#saladas">Comidas Saladas</a></li>
+            <li><a href="#dulces">Comidas Dulces</a></li>
+            <li><a href="#registro">Registro</a></li>
+        </ul>
+    </nav>
 
-  <h2>Comidas dulces</h2>
-  <ul>
-    <li><a href="https://www.elconfidencial.com/alma-corazon-vida/2020-06-19/verdadera-historia-churros-alimentacion-fama_2643340/">Churros</a></li>
-    <img src="https://th.bing.com/th/id/OIP.OYK7k8pWi93jnEuX1fhkeQHaLy?rs=1&pid=ImgDetMain" title="churros" alt="churros">
-    <li><a href="https://es.wikipedia.org/wiki/Dulce_de_leche">Dulce de leche</a></li>
-    <img src="https://mui.kitchen/__export/1604968961339/sites/muikitchen/img/2020/11/09/dulce-leche.png_780026138.png" title="dulce de leche" alt="dulce de leche">
-    <li><a href="https://www.clarin.com/gourmet/origen-alfajor-hace-pais_0_CisPblcXap.html">Alfajores</a></li>
-    <img src="https://cdn11.bigcommerce.com/s-3stx4pub31/product_images/uploaded_images/alfajores-de-maicena-con-dulce-de-leche.jpg" title="alfajor" alt="alfajor">
-  </ul>
-  <label for="">Usuario:</label>
-  <input type="text" placeholder="escribe el nombre tu tu usuario"><br>
-  <label for="">Email:</label>
-  <input type="email" name="email" id="email" placeholder="escribe tu email"><br>
-  <label for="">Password:</label>
-  <input type="password" name="password" id="password" placeholder="escribe tu contraseña"><br>
-  <input type="button" value="ingresar" ><br>
+    <div class="contenedor-principal">
+        <aside>
+            <h2>Categorías</h2>
+            <ul>
+                <li><a href="#asado">Asado</a></li>
+                <li><a href="#chivito">Chivito</a></li>
+                <li><a href="#napolitana">Napolitana</a></li>
+                <li><a href="#churros">Churros</a></li>
+                <li><a href="#dulce-de-leche">Dulce de Leche</a></li>
+                <li><a href="#alfajores">Alfajores</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <section id="saladas">
+                <h2>Comidas Saladas</h2>  
+                <ol>
+                    <li> <a href="https://en.wikipedia.org/wiki/Asado" id="asado">Asado</a></li>
+                    <img src="https://th.bing.com/th/id/OIP.iPFnE2DfO4t38OW_NGfiBQHaE8?rs=1&pid=ImgDetMain" title="asado" alt="cargando imagen de un asado">
+                    <li><a href="https://www.lr21.com.uy/gastronomia/1471599-receta-chivito-uruguayo-historia" id="chivito">Chivito</a></li>
+                    <img src="https://th.bing.com/th/id/R.81f6c2d4db4fe99883a372c00c8b5a41?rik=g1usOkVuWvSyjg&pid=ImgRaw&r=0" title="chivito" alt="cargando imagen de un chivito">
+                    <li><a href="https://www.directoalpaladar.com/recetas-de-carnes-y-aves/receta-argentina-milanesa-a-napolitana-filete-empanado-dos-mentiras" id="napolitana">Napolitana</a></li>
+                    <img src="https://th.bing.com/th/id/OIP.9JdJY5Ogn-FZQUYmG8oRKAHaEk?rs=1&pid=ImgDetMain" title="napolitana" alt="milanesa napolitana">
+                </ol>
+            </section>
+
+            <section id="dulces">
+                <h2>Comidas Dulces</h2>
+                <ul>
+                    <li><a href="https://www.elconfidencial.com/alma-corazon-vida/2020-06-19/verdadera-historia-churros-alimentacion-fama_2643340/" id="churros">Churros</a></li>
+                    <img src="https://th.bing.com/th/id/OIP.OYK7k8pWi93jnEuX1fhkeQHaLy?rs=1&pid=ImgDetMain" title="churros" alt="churros">
+                    <li><a href="https://es.wikipedia.org/wiki/Dulce_de_leche" id="dulce-de-leche">Dulce de leche</a></li>
+                    <img src="https://mui.kitchen/__export/1604968961339/sites/muikitchen/img/2020/11/09/dulce-leche.png_780026138.png" title="dulce de leche" alt="dulce de leche">
+                    <li><a href="https://www.clarin.com/gourmet/origen-alfajor-hace-pais_0_CisPblcXap.html" id="alfajores">Alfajores</a></li>
+                    <img src="https://cdn11.bigcommerce.com/s-3stx4pub31/product_images/uploaded_images/alfajores-de-maicena-con-dulce-de-leche.jpg" title="alfajor" alt="alfajor">
+                </ul>
+            </section>
+
+            <section id="registro">
+                <h2>Registro</h2>
+                <form>
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" id="usuario" placeholder="Escribe el nombre de tu usuario"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Escribe tu email"><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Escribe tu contraseña"><br>
+                    <input type="submit" value="Ingresar">
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>© 2024 Chicas Programadoras</p>
+    </footer>
 </body>
 </html>
