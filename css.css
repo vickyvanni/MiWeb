@@ -1,17 +1,98 @@
-body{
+body {
     background-color: aliceblue;
-    font-family:Playfair Display ;
-}
-h1{
-    color: blue;
-}
-ul {
-    list-style-type:lower-alpha;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
 }
 
-a{
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+a {
     font-size: 20px;
     font-weight: bold;
+    text-decoration: none;
+    color: #0088dd;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+div {
+    padding: 10px 15px 20px 5px;
+    margin: 1px 2px 4px 3px;
+    border: 3px dotted #0088dd;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    float: left;
+    clear: both;
+}
+
+nav {
+    width: 100%;
+    background-color: #555;
+    float: left;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+main {
+    width: 75%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 10px;
+}
+
+ul, ol {
+    list-style-type: lower-alpha;
+    margin: 0;
+    padding: 0 20px;
 }
 img {
     width: 100px;
@@ -26,9 +107,3 @@ img {
     font-weight: 30px;
     font-style: normal;
   }
-
-div {
-    padding: 10px 15px 20px 5px;
-    margin: 1px 2px 4px 3px;
-    border: 3px dotted #0088dd;
-}
