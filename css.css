@@ -26,3 +26,9 @@ img {
     font-weight: 30px;
     font-style: normal;
   }
+
+div {
+    padding: 10px 15px 20px 5px;
+    margin: 1px 2px 4px 3px;
+    border: 3px dotted #0088dd;
+}
