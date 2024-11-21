@@ -19,6 +19,7 @@
             <li><a href="#saladas">Comidas Saladas</a></li>
             <li><a href="#dulces">Comidas Dulces</a></li>
             <li><a href="#registro">Registro</a></li>
+            <li><a href="#juego">Juego</a></li>
         </ul>
     </nav>
 
@@ -59,6 +60,16 @@
                     <img src="https://cdn11.bigcommerce.com/s-3stx4pub31/product_images/uploaded_images/alfajores-de-maicena-con-dulce-de-leche.jpg" title="alfajor" alt="alfajor">
                 </ul>
             </section>
+
+            <section id="juego">
+                <h2>Juego: Adivina el Número</h2>
+                <p>Adivina un número entre 1 y 100</p>
+                <input type="number" id="entradaUsuario" placeholder="Escribe un número">
+                <button onclick="verificarNumero()">Intentar</button>
+                <button onclick="reiniciarJuego()">Reiniciar</button>
+                <div id="mensaje"></div>
+            </section>
+            <script src="juego.js"></script>
 
             <section id="registro">
                 <h2>Registro</h2>
